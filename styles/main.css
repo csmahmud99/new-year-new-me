@@ -50,3 +50,46 @@
     font-weight: 600;
     font-size: 20px;
 }
+
+/* Main Section Styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 130px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+/* My Failure Section Styles */
+.my-failure-section {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+}
+
+.failure-text ul {
+    padding: 0;
+}
+
+.failure-text li {
+    list-style: none;
+}
+
+.failure-text i {
+    color: #16D887;
+}
+
+.failure-text-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 24px 0 16px 0;
+}
