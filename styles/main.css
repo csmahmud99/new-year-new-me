@@ -1,9 +1,10 @@
+/* Styles for whole body */
 * {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
-/* Banner Section Styles */
+/* Header & Header Banner Section Styles */
 .header {
     background-image: url("../images/banner/banner2.png");
     background-repeat: no-repeat;
@@ -111,6 +112,10 @@ section {
 }
 
 /* My Plans Section Styles */
+.my-plans-container .section-title {
+    text-align: center;
+}
+
 .plan-items-list {
     display: flex;
     gap: 86px;
@@ -162,4 +167,62 @@ section {
     font-size: 40px;
     line-height: 47px;
     margin-bottom: 24px;
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #151414;
+    color: #FFFFFF;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.footer-social {
+    width: 485px;
+    margin: 130px 0px 130px 230px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    margin-right: 17px;
+}
+
+.footer-social-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+
+.footer-social-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.footer-form {
+    margin: 130px 230px 130px 0px;
+}
+
+.footer-form-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 31px;
+}
+
+form input {
+    width: 325px;
+    height: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #151414;
+    color: #F3F3F3;
+    padding: 10px;
+    margin-bottom: 16px;
 }
