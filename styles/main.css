@@ -5,7 +5,7 @@
 
 /* Banner Section Styles */
 .header {
-    background-image: url(../images/banner/banner2.png);
+    background-image: url("../images/banner/banner2.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -70,6 +70,19 @@ section {
     line-height: 47px;
 }
 
+.btn-white {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    width: 160px;
+    height: 64px;
+}
+
 /* My Failure Section Styles */
 .my-failure-container {
     display: flex;
@@ -127,4 +140,26 @@ section {
     font-size: 25px;
     line-height: 29px;
     margin-top: 16px;
+}
+
+/* Mindset Section Starts */
+.mindset-section-container {
+    height: 300px;
+    max-height: 300px;
+    /* My New Learning of CSS Gradient, Overlaying Color Over a BG Image */
+    background-image: linear-gradient(to right, rgba(237, 91, 35, 1), rgba(142, 175, 142, 0.05)), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mindeset-text-btn {
+    padding: 59px 0px 59px 64px;
+}
+
+.mindset-section-container .section-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
 }
