@@ -68,7 +68,7 @@ section {
 }
 
 /* My Failure Section Styles */
-.my-failure-section {
+.my-failure-container {
     display: flex;
     gap: 87px;
     align-items: center;
@@ -92,4 +92,36 @@ section {
     font-size: 16px;
     line-height: 26px;
     margin: 24px 0 16px 0;
+}
+
+/* My Plans Section Styles */
+.plan-items-list {
+    display: flex;
+    gap: 86px;
+}
+
+.plan-item {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.plan-item img {
+    width: 93px;
+    height: 93px;
+}
+
+.plan-item-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+.plan-item-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: 16px;
 }
