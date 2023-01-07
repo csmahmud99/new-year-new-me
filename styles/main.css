@@ -193,7 +193,7 @@ section {
 }
 
 
-/* Mindset Section Starts */
+/* Mindset Section Styles */
 .mindset-section-container {
     height: 300px;
     max-height: 300px;
@@ -203,7 +203,7 @@ section {
     background-size: cover;
 }
 
-.mindeset-text-btn {
+.mindset-text-btn {
     padding: 59px 0px 59px 64px;
 }
 
