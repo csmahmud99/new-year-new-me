@@ -4,6 +4,11 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.horizontal {
+    width:10%; 
+    margin: 10px auto 5px;
+}
+
 /* Header & Header Banner Section Styles */
 .header {
     background-image: url("../images/banner/banner2.png");
@@ -65,6 +70,7 @@ section {
     margin-top: 130px;
 }
 
+
 .section-title {
     font-weight: 700;
     font-size: 40px;
@@ -91,6 +97,11 @@ section {
     align-items: center;
 }
 
+.failure-text-horizontal {
+    width: 10%;
+    margin: 10px 0 5px;
+}
+
 .failure-text ul {
     padding: 0;
 }
@@ -113,6 +124,10 @@ section {
 
 /* My Plans Section Styles */
 .my-plans-container .section-title {
+    text-align: center;
+}
+
+.my-plans-container hr {
     text-align: center;
 }
 
@@ -256,4 +271,27 @@ form input {
     color: #F3F3F3;
     padding: 10px;
     margin-bottom: 16px;
+}
+
+footer .copyright {
+    margin: 0;
+}
+
+.copyright hr {
+    color:burlywood;
+}
+
+.copyright p {
+    text-align: center; 
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #F15B22;
+}
+
+.copyright a:hover {
+    color: bisque;
 }
