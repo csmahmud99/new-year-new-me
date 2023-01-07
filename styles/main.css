@@ -147,6 +147,37 @@ section {
     margin-top: 16px;
 }
 
+/* My Other Plans Section Styles */
+.other-plans-container .section-title {
+    text-align: center;
+}
+
+.all-plans {
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.all-plans-item {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px 15px;
+}
+
+.all-plans img {
+    width: 300px;
+    height: 250px;
+    border: 8px solid #F15B22;
+    border-radius: 5px;
+}
+
+.all-plans .section-title {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
 /* Mindset Section Starts */
 .mindset-section-container {
     height: 300px;
